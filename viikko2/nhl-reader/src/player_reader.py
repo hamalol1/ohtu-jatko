@@ -6,7 +6,6 @@ class PlayerReader:
         self.url = url
 
     def get_players(self):
-        # Haetaan data ja muutetaan se olioiksi
         response = requests.get(self.url).json()
         players = []
         for player_dict in response:
