@@ -10,7 +10,4 @@ max-statements=20
 max-args=5
 
 [MESSAGE CONTROL]
-disable=missing-docstring
-
-[MESSAGE CONTROL]
 disable=missing-docstring,too-few-public-methods
