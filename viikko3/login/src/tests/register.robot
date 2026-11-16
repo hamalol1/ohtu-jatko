@@ -26,6 +26,20 @@ Register With Valid Username And Too Short Password
     Submit Credentials
     Register Should Fail With Message  Password must be at least 8 characters long
 
+Register With Password Containing Only Letters
+    Set Username  maija
+    Set Password  abcdefgh
+    Set Password Confirmation  abcdefgh
+    Submit Credentials
+    Register Should Fail With Message  Password must contain at least one non-letter character
+
+Register With Password Confirmation That Does Not Match
+    Set Username  maija
+    Set Password  salasana123
+    Set Password Confirmation  salasana321
+    Submit Credentials
+    Register Should Fail With Message  Passwords do not match
+
 Register With Username That Is Already In Use
     Set Username  kalle
     Set Password  salasana123
