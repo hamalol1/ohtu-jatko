@@ -11,7 +11,14 @@ print(f"{x} + {y} = {summa(x, y)}")
 print(f"{x} - {y} = {erotus(x, y)}")
 print(f"{x} * {y} = {tulo(x, y)}")
 
+<<<<<<< HEAD
+logger("lopetetaan ohjelma")
+print("goodbye!") # lisäys bugikorjaus-branchissa
+
+#hei hei
+=======
 logger("lopetetaan")
 print("goodbye!")
 
 #Moi moi
+>>>>>>> 51191c34e7869a3212872dc23cde2b89fc0c758c
