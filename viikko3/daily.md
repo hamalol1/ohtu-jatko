@@ -1,0 +1,5 @@
+OhtuBotin kanssa käydyt Daily Scrum -simulaatiot havainnollistivat tiimidynamiikan ja organisaatiokulttuurin vaikutusta operatiiviseen ongelmanratkaisuun. Hyvä Daily Scrum ei ole vain pelkkä statusraportti, vaan tiimin sisäinen, nopeatempoinen synkronointihetki. Sen ensisijainen tarkoitus on tunnistaa ja taklata työnteon esteet eli blokkerit mahdollisimman aikaisin.
+
+Simulaatioissa korostui erityisesti psykologisen turvallisuuden kriittisyys. Syyllistävässä ympäristössä kehittäjä pyrkii peittelemään haasteitaan, esimerkiksi lokaalin ympäristön konfiguraatio-ongelmia tai tietokantaskeemaan liittyvää epävarmuutta. Tämä johtaa väistämättä piilevien riskien kasvuun ja toimitusaikataulujen pettämiseen.
+
+Turvallisessa tiimissä blokkeri uskalletaan nostaa pöydälle heti ja faktapohjaisesti. Optimaalisessa Dailyssa itse ongelmaa ei ryhdytä ratkomaan palaverin aikana, vaan se ainoastaan identifioidaan. Samalla sovitaan, kuka auttaa ratkaisemaan sen heti Dailyn jälkeen esimerkiksi pariohjelmoinnin avulla jos tarvetta. Tehokas Daily on lyhyt, analyyttinen ja keskittyy esteiden poistamiseen, turvaten jatkuvan yhteistyön työnkulun sujuvuuden.
