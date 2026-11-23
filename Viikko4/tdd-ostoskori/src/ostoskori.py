@@ -13,3 +13,9 @@ class Ostoskori:
 
     def lisaa_tuote(self, lisattava: Tuote):
         self._ostokset.append(Ostos(lisattava))
+
+    def poista_tuote(self, poistettava: Tuote):
+        for ostos in self._ostokset:
+            if ostos.tuote is poistettava:
+                self._ostokset.remove(ostos)
+                break
