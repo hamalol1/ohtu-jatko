@@ -28,3 +28,6 @@ class Ostoskori:
 
     def ostokset(self):
         return self._ostokset
+
+    def tyhjenna(self):
+        self._ostokset.clear()
