@@ -19,3 +19,6 @@ class Ostoskori:
             if ostos.tuote is poistettava:
                 self._ostokset.remove(ostos)
                 break
+
+    def ostokset(self):
+        return self._ostokset
